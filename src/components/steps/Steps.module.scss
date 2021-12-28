@@ -1,0 +1,99 @@
+@import '../../index.scss';
+
+.subTitle {
+  font-size: 24px;
+  opacity: 0.4;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.wordTitle {
+  font-weight: 900;
+  font-size: 50px;
+  color: #42497b;
+  font-weight: 900;
+  margin: 0;
+}
+
+.inputWord {
+  width: 330px;
+  height: 66px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 0 20px;
+  border-radius: 20px;
+  outline: none;
+  font-size: 35px;
+  font-weight: 600;
+  margin: 30px 0;
+  text-align: center;
+
+  &.error {
+    border: 3px solid $red;
+    background-color: lighten($red, 40%);
+  }
+}
+
+.container {
+  width: 372px;
+  margin: 0 auto;
+}
+
+.statistics {
+  display: flex;
+  justify-content: space-between;
+
+  div {
+    &:first-of-type {
+      b {
+        color: $blue;
+      }
+    }
+    &:last-of-type {
+      b {
+        color: $green;
+      }
+    }
+  }
+
+  p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  b {
+    font-weight: bold;
+    font-size: 28px;
+  }
+}
+
+.welcomeTitle {
+  font-size: 40px;
+  color: $blue;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.welcomeText {
+  font-weight: 500;
+  font-size: 24px;
+  color: #a9acc4;
+  margin-top: 10px;
+}
+
+.resultBlock {
+  p {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  button {
+    width: 300px;
+  }
+}

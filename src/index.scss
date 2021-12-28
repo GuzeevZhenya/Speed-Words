@@ -1,0 +1,52 @@
+$blue: #0060ff;
+$green: #28c900;
+$red: #ea5838;
+$orange: #eebe42;
+
+body {
+  background-color: #f6f7ff;
+}
+
+* {
+  font-family: 'Inter', system-ui;
+}
+
+.wrapper {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 10px 14px rgba(0, 0, 0, 0.03);
+  margin: 50px auto;
+  width: 560px;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.button {
+  width: 210px;
+  height: 70px;
+  background: $blue;
+  font-weight: 600;
+  border-radius: 60px;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  transition: background-color 0.05s ease-in-out;
+
+  &:hover {
+    background-color: lighten($blue, 8%);
+  }
+
+  &:active {
+    transform: translateY(1px);
+  }
+
+  img {
+    width: 22px;
+    height: 22px;
+    margin-right: 7px;
+  }
+}
